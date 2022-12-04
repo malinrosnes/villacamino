@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Villa Camino</title>   
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div tabindex="0" class="logo"><a href="index.html">Villa Camino</a></div>
+        <ul class="nav-links">
+            <li tabindex="0"><a href="booking.html">BOOKING</a></li>
+            <li tabindex="0"><a href="restaurant.html">RESTAURANT</a></li>
+            <li tabindex="0"><a href="Accessibility.html">TILGJENGELIGHET</a></li>
+            <li tabindex="0"><a href="topical.html">TOPICAL</a></li>
+            <li tabindex="0" class="ctn"><a href="mailto:kontakt@villcamio.com">KONTAKT OSS</a></li>
+        </ul>
+        <img src="menytopical.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+
+        <div class="header-content">
+            <h1 tabindex="0">Villa Camino</h1>
+            <div class="linje"></div>
+            <h2 tabindex="0">Hvor dine drømmer går i oppfyllelse</h2>
+        </div>
+    </header>
+
+    <!--Om oss-->
+
+        <div class="tittel">
+            <h1 tabindex="0">Velkommen til oss!</h1>
+            <hr>
+        </div>
+
+    <div tabindex="0" class="galleri">
+        <div class="galleri__bilde galleri__bilde--1">
+          <img src="bryllup1.jpg" class="galleri__bilde" alt="Bilde 1">
+          <div class="bildecredit1">Foto av: <i> Emma Bauso</i></div>
+        </div>
+        <div class="galleri__bilde galleri__bilde--2">
+            <img src="bryllups.jpg" class="galleri__bilde" alt="Bilde 2">
+            <div class="bildecredit1">Foto av: <i> Emma Bauso</i></div>
+        </div>
+            <div class="bryllup-tekst"><a href="#"><h2>Bryllup</h2><p>På den fine kysten i Toscana kan du booke ditt drømmebryllup for inntil 350 gjester.</p><a href="booking.html" class="ctn">Les mer og book nå!</a></a></div>
+            <div class="vinsmaking-tekst"><a href="#"><h2>Vinsmaking</h2><p>En helt unik opplevelse man ikke kan være foruten når du først er i vakre Italia. Ferske druer og vin av ypperste klasse.</p><a href="booking.html#tillegg-boks-3" class="ctn">Les mer og book nå!</a></a></div>
+        <div class="galleri__bilde galleri__bilde--3">
+            <img src="vinsmaking.jpg" class="galleri__bilde" alt="Bilde 3">
+            <div class="bildecredit">Foto av: <i> Tim Mossholder</i></div>
+        </div>
+        <div class="galleri__bilde galleri__bilde--4">
+            <img src="vindruer.webp" class="galleri__bilde" alt="Bilde 4">
+          <div class="bildecredit">Foto av: <i> Pixabay</i></div>
+        </div>
+          <div class="galleri__bilde galleri__bilde--5">
+            <img src="vintønner.jpg" class="galleri__bilde" alt="Bilde 5">
+            <div class="bildecredit">Foto av: <i> Arthur Brognoli</i></div>
+          </div>
+          <div class="galleri__bilde galleri__bilde--6">
+            <img src="vinkart.jpg" class="galleri__bilde" alt="Bilde 6">
+            <div class="bildecredit">Foto av: <i> Pavel Danilyuk</i></div>
+          </div>
+        </div>
+        
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector ('.nav-links')
+
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <button tabindex="0" class="kontakt-oss-knapp">
+    <a href="mailto:kontakt@villcamio.com">Kontakt oss for booking nå!</a>
+    </button>
+
+
+<!-- footer-->
+<footer class="footer">
+    <div class="footer-venstre">
+        <a href="forsideeks.html"><h3>Villa<span>Camino</span></h3></a>
+        <!-- bør disse endres til li/ul?-->
+        <div class="footer-links">
+            <a tabindex="0" href="index.html" class="link-1">Hjem</a>
+            <a tabindex="0" href="booking.html">Booking</a>
+            <a tabindex="0" href="restaurant.html">Restaurant</a>
+            <a tabindex="0" href="topical.html">Topical</a>
+            <a tabindex="0" href="Accessibility.html">Accessibility</a>
+        </div>
+        <p tabindex="0">Åpningstider restaurant:</p>
+        <p tabindex="0">09.00-22.00(10.00-01.00)</p>
+    </div>
+
+    <div class="footer-midten">
+            <p tabindex="0"><span>1234 Fiesole</span> Toscana, Italia</p>
+            <p tabindex="0">+123456578</p>
+            <i tabindex="0" class="mail-adresse"></i>
+            <p tabindex="0"><a href="mailto:kontakt@villacamino.com">kontakt@villacamino.com</a></p>
+        </div>
+        
+
+    <div class="footer-høyre">
+        <div class="footer-om-oss">
+            <h4 tabindex="0">Om oss</h4>
+            <p tabindex="0">Villa Camino er en nydelig norskeid villa i Toscana, Italia. Vi tilbyr blant annet booking av bryllup, lokaler for arrangementer, vinsmaking, underholdning og fantastisk mat fra vår egen restaurant, ristorante Amore. Villa Camino er perfekt for de som ønsker en vakker plass å holde sitt arrangement.</p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
